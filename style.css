@@ -1,0 +1,128 @@
+html{
+    background-color: black;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: auto;
+}
+
+.nav-right{
+    float: right;
+    padding-right: 1%;
+}
+
+.header a{
+    position: relative;
+    color: red;
+    text-decoration: none;
+    font-size: 50px;
+    padding: 1%;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    bottom: 5%;
+    z-index: 1;
+}
+
+input{
+    padding: 1%;
+    margin-right: 4%;
+    border-radius: 50px;
+}
+
+.text-input{
+    min-width: 50%;
+}
+
+.submit-button{
+    right: 0;
+    position: absolute;
+}
+
+.form-left{
+    display: inline-flex;
+    position: relative;
+    left: 5%;
+    padding: 0.5%;
+    min-width: 26%;
+    background-color: blue;
+    border: solid black;
+    border-radius: 50px;
+    /* opacity: 0.5; */
+}
+
+/* .form-left:hover,
+.form-right:hover{
+    opacity: 1;
+} */
+
+.form-right{
+    display: inline-flex;
+    position: absolute;
+    right: 5%;
+    padding: 0.5%;
+    min-width: 26%;
+    background-color: blue;
+    border: solid black;
+    /* opacity: 0.5; */
+    border-radius: 50px;
+}
+
+.dictionary{
+    display: flex;
+    position: relative;
+}
+
+.waiting-wrapper,
+.about-wrapper{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.waiting-collection,
+.tool-collection{
+    padding: 2%;
+}
+
+.tool-wrapper{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    float: right;
+    right: 0;
+    overflow: scroll;
+}
+
+.my_wait,
+.about-message{
+    background-color: green;
+    color: white;
+    border-radius: 50px 50px 50px 0;
+}
+
+.my_wait p,
+.my_tool p,
+.about-message p {
+    padding: 2%;
+}
+
+.my_tool{
+    background-color:grey;
+    color: white;
+    border-radius: 50px 50px 0 50px;
+}
